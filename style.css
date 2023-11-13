@@ -37,6 +37,7 @@ body{
     align-items: center;
     justify-content: center;
 }
+
 .nav .left img{
     width: 200px;   
     height: 40px;
@@ -97,7 +98,7 @@ body{
 
 
 .main-pg div h1 a {
-    font-size: 2vw;
+    font-size: 3vw;
     text-decoration: none;
     color: white;
     background-color: #7E3836;
@@ -152,10 +153,10 @@ body{
 
 @media screen and (width < 970px) {
     .main-pg .image{
-        opacity: 0.2;
+        opacity: 0;
     }
     .main-pg #secondImage{
-        opacity: 0.2;
+        opacity: 0;
     }
     
 }
